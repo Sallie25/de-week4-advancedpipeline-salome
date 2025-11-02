@@ -27,8 +27,8 @@ class DataEnricher:
                     "quantity": count,
                     "rating": rate
                 })
-            df_products = pd.DataFrame(cleaned_products)
-            return df_products.head()
+            self.df_products = pd.DataFrame(cleaned_products)
+            return self.df_products
 
         elif data.lower() == "users":
             cleaned_users = []
@@ -40,8 +40,18 @@ class DataEnricher:
                     "last_name": item.get("name", {}).get("lastname"),
                     "id": item.get("id")
                 })
-            df_users = pd.DataFrame(cleaned_users)
-            return df_users.head()
+            self.df_users = pd.DataFrame(cleaned_users)
+            return self.df_users
+
+    def merge_df(self):
+        self.merged = self.df_products.merge(self.df_users, on = "id")
+        return self.merged
+    
+    """Calculates a new column revenue (price * quantity from the rating object, assuming rating.count is quantity for this exercise)"""
+    def revenue_col(self):
+        self.merged["revenue"] = self.merged["price"] * self.merged["quantity"]
+        return self.merged
+
 
 def main():
     config = ConfigManager()
@@ -54,6 +64,12 @@ def main():
 
     print("\nUsers DataFrame:")
     print(enricher.convert_to_dataframe("users"))
+
+    print("\n Merged Dataframe")
+    print(enricher.merge_df())
+
+    print("\n Added Revenue column")
+    print(enricher.revenue_col())
 
 if __name__ == "__main__":
     main()

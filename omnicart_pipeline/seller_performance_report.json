@@ -1,0 +1,110 @@
+{
+    "id": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 10
+    },
+    "price": {
+        "0": 109.95,
+        "1": 22.3,
+        "2": 55.99,
+        "3": 15.99,
+        "4": 695.0,
+        "5": 168.0,
+        "6": 9.99,
+        "7": 10.99,
+        "8": 64.0,
+        "9": 109.0
+    },
+    "category": {
+        "0": "men's clothing",
+        "1": "men's clothing",
+        "2": "men's clothing",
+        "3": "men's clothing",
+        "4": "jewelery",
+        "5": "jewelery",
+        "6": "jewelery",
+        "7": "jewelery",
+        "8": "electronics",
+        "9": "electronics"
+    },
+    "quantity": {
+        "0": 120,
+        "1": 259,
+        "2": 500,
+        "3": 430,
+        "4": 400,
+        "5": 70,
+        "6": 400,
+        "7": 100,
+        "8": 203,
+        "9": 470
+    },
+    "rating": {
+        "0": 3.9,
+        "1": 4.1,
+        "2": 4.7,
+        "3": 2.1,
+        "4": 4.6,
+        "5": 3.9,
+        "6": 3.0,
+        "7": 1.9,
+        "8": 3.3,
+        "9": 2.9
+    },
+    "email": {
+        "0": "john@gmail.com",
+        "1": "morrison@gmail.com",
+        "2": "kevin@gmail.com",
+        "3": "don@gmail.com",
+        "4": "derek@gmail.com",
+        "5": "david_r@gmail.com",
+        "6": "miriam@gmail.com",
+        "7": "william@gmail.com",
+        "8": "kate@gmail.com",
+        "9": "jimmie@gmail.com"
+    },
+    "username": {
+        "0": "johnd",
+        "1": "mor_2314",
+        "2": "kevinryan",
+        "3": "donero",
+        "4": "derek",
+        "5": "david_r",
+        "6": "snyder",
+        "7": "hopkins",
+        "8": "kate_h",
+        "9": "jimmie_k"
+    },
+    "first_name": {
+        "0": "john",
+        "1": "david",
+        "2": "kevin",
+        "3": "don",
+        "4": "derek",
+        "5": "david",
+        "6": "miriam",
+        "7": "william",
+        "8": "kate",
+        "9": "jimmie"
+    },
+    "last_name": {
+        "0": "doe",
+        "1": "morrison",
+        "2": "ryan",
+        "3": "romer",
+        "4": "powell",
+        "5": "russell",
+        "6": "snyder",
+        "7": "hopkins",
+        "8": "hale",
+        "9": "klein"
+    }
+}
