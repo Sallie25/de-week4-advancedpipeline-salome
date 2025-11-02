@@ -21,12 +21,12 @@ class ApiClient:
         return(users)
     
 
-def main():
-    config = ConfigManager()
-    client = ApiClient(config.base_url)
-    # print(client.get_all_products())
-    print(client.get_all_users())
+# def main():
+#     config = ConfigManager()
+#     client = ApiClient(config.base_url)
+#     # print(client.get_all_products())
+#     print(client.get_all_users())
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
     
